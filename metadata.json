@@ -1,0 +1,6 @@
+{
+  "name": "Vinci Esthetique",
+  "description": "Bilingual landing page for Vinci Esthetique Avancee, a laser hair removal service in Casablanca.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

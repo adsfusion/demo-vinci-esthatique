@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: 'Inter', sans-serif;
+  --font-tajawal: 'Tajawal', sans-serif;
+  
+  --color-primary: #1A1A1A;
+  --color-primary-light: #2D2D2D;
+  --color-accent: #E5C39C; /* Soft gold/champagne for a medical-spa feel */
+  --color-accent-dark: #C69F74;
+  --color-bg-light: #FDFBF9;
+  --color-bg-alt: #F3EFEA;
+}
+
+body {
+  background-color: var(--color-bg-light);
+  color: var(--color-primary);
+  /* Default font */
+  font-family: var(--font-inter);
+}
+
+/* Base styles for smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+[dir="rtl"] {
+  font-family: var(--font-tajawal);
+}
+
+[dir="ltr"] {
+  font-family: var(--font-inter);
+}
